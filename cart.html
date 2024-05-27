@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EGrocery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="abt-bg">
+    <header><h1>EGrocery</h1></header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li id="signupOrLogout"><a href="signup.html">Sign Up/Login</a></li>
+        </ul> 
+    </nav>
+    <main id="cart_page">
+       <div id="cart_items">
+            <table></table>
+            <div id="total_cost"></div>
+            <button type="button" id="place_order">Place Order</button>
+       </div>
+
+       <h2 id="no_items">Currently there are no items in your cart</h2>
+    </main>
+    
+    <footer>
+        <div>
+            <p id="copyright">Copyright &copy;EGrocery</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/navigation.js"></script>
+</body>
+</html>

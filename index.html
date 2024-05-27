@@ -1,0 +1,237 @@
+<!-- Images are taken from the below sites
+https://stock.adobe.com/ca/ 
+https://unsplash.com/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EGrocery</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+</head>
+<body>
+    <header><h1>EGrocery</h1></header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li> 
+            <li><a href="cart.html">Cart</a></li>
+            <li id="signupOrLogout"><a href="signup.html">Sign Up/Login</a></li>
+        </ul> 
+    </nav>
+
+    <main>
+        <ul class="slider">
+            <li> <img src="images/fruitsbanner.jpg"></li>
+            <li> <img src="images/vegetablebanner.jpg"></li>
+            <li> <img src="images/frozenbanner.jpg"></li>
+            <li> <img src="images/dryfruitsbanner.jpg"></li>
+        </ul>
+
+        <h2 id="new_arrival_header">New Arrivals</h2>
+        <div id="new_arrival">
+            <div class="col-md-3">
+                <img class="mirrors" src="images/carrots.jpg">
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>Carrots</h3>
+                    <div class="product-description">
+                        <p class="product-price">&dollar; 3.99</p>
+                        <div>
+                            <label for="qty-2">Quantity</label>
+                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1"/>
+                            <p id="zeroQuantity"></p>
+                        </div>
+                        <p><input type="submit" value="Add to cart" class="add_to_cart_btn" /> </p>        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img class="mirrors" src="images/figs.jpeg">
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>Figs</h3>
+                    <div class="product-description">
+                        <p class="product-price">&dollar; 9.49</p>
+                        <div>
+                            <label for="qty-2">Quantity</label>
+                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                            <p id="zeroQuantity"></p>
+                        </div>
+                        <p><input type="submit" value="Add to cart" class="add_to_cart_btn" /></p>        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img class="mirrors" src="images/peas.jpeg">
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>Peas</h3>
+                    <div class="product-description">
+                        <p class="product-price">&dollar; 3.49</p>
+                        <div>
+                            <label for="qty-2">Quantity</label>
+                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                            <p id="zeroQuantity"></p>
+                        </div>
+                        <p><input type="submit" value="Add to cart" class="add_to_cart_btn" /></p>        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img class="mirrors" src="images/greenapple.jpeg">
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>Green Apple</h3>
+                    <div class="product-description">
+                        <p class="product-price">&dollar; 5.49</p>
+                        <div>
+                            <label for="qty-2">Quantity</label>
+                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                            <p id="zeroQuantity"></p>
+                        </div>
+                        <p><input type="submit" value="Add to cart" class="add_to_cart_btn" /></p>        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img class="mirrors" src="images/almonds.jpeg">
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>Alomds</h3>
+                    <div class="product-description">
+                        <p class="product-price">&dollar; 12.99</p>
+                        <div>
+                            <label for="qty-2">Quantity</label>
+                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                            <p id="zeroQuantity"></p>
+                        </div>
+                        <p><input type="submit" value="Add to cart" class="add_to_cart_btn" /></p>        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img class="mirrors" src="images/fish.jpeg">
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>Fish</h3>
+                    <div class="product-description">
+                        <p class="product-price">&dollar; 10.99</p>
+                        <div>
+                            <label for="qty-2">Quantity</label>
+                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                            <p id="zeroQuantity"></p>
+                        </div>
+                        <p><input type="submit" value="Add to cart" class="add_to_cart_btn" /></p>        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="on_sale_header">On Sale</h2>
+        <div id="on_sale">
+            <div class="col-md-3">
+                <img class="mirrors" src="images/kiwi.jpeg">
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>Kiwi</h3>
+                    <div class="product-description">
+                        <p class="product-price">&dollar; 2.49</p>
+                        <div>
+                            <label for="qty-2">Quantity</label>
+                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                            <p id="zeroQuantity"></p>
+                        </div>
+                        <p><input type="submit" value="Add to cart" class="add_to_cart_btn" /></p>        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img class="mirrors" src="images/mangoes.jpeg">
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>Mangoes</h3>
+                    <div class="product-description">
+                        <p class="product-price">&dollar; 1.99</p>
+                        <div>
+                            <label for="qty-2">Quantity</label>
+                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                            <p id="zeroQuantity"></p>
+                        </div>
+                        <p><input type="submit" value="Add to cart" class="add_to_cart_btn" /></p>        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img class="mirrors" src="images/chicken.jpg">
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>Chicken</h3>
+                    <div class="product-description">
+                        <p class="product-price">&dollar; 8.99</p>
+                        <div>
+                            <label for="qty-2">Quantity</label>
+                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                            <p id="zeroQuantity"></p>
+                        </div>
+                        <p><input type="submit" value="Add to cart" class="add_to_cart_btn" /></p>        
+                    </div>
+                </div>
+            </div>   
+        </div> 
+    </main>
+     
+    <footer>
+        <div>
+            <p id="copyright">Copyright &copy;EGrocery</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="js/jquery.bxSlider.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/navigation.js"></script>
+
+</body>
+</html>
